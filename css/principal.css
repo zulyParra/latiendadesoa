@@ -1,0 +1,89 @@
+:root {
+  --fondo-color:#f8f9fa;
+  --btn-background: #E68298;
+  /* titulos h1 y h2*/
+  --text-primary-color: #43484d;
+  /* contenidos p*/
+  --text-secundary-color: #2b3035;
+  /* texto header y botones */
+  --text-header-color: #a4a4a4;
+  /* fuente para titulos */
+  --text-primary-font: AbrilFatface-Regular;
+  /* fuente para textos */
+  --text-secundary-font: MuktaMahee-Medium;
+  /* fuente para header y botones */
+  --text-header-font: MuktaMahee-SemiBold;
+}
+
+.logo{
+  width: auto;
+  height: 150px;
+}
+
+.btn-style {
+  color:var(--btn-background);
+  border-color:var(--btn-background);
+}
+
+.btn-style:hover {
+  color: #fff;
+  background-color:var(--btn-background);
+  border-color:var(--btn-background);
+}
+
+/* footer */
+.footer-text{
+  margin-left: 45%;
+}
+
+.text-foot{
+  text-decoration: none;
+  color:var(--text-primary-color);
+}
+
+.text-foot:hover{
+  color:var(--btn-background);
+}
+
+.footer-social{
+  margin-left: 30%;
+  color:var(--text-primary-color);
+}
+.social{
+  margin-left: 30%;
+}
+
+.footer-fondo{
+  background-color: var(--fondo-color);
+}
+
+.fa-facebook-square{
+  color:var(--btn-background);
+}
+.fa-whatsapp-square{
+  color:var(--btn-background);
+}
+.fa-instagram-square{
+  color:var(--btn-background);
+}
+
+@media screen and (max-width: 600px) {
+  .footer-text{
+    margin-left: 20%;
+  }
+  .footer-social{
+    margin-left: 20%;
+  }
+  .social{
+    margin-left: 20%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-social{
+    margin-left: 20%;
+  }
+  .social{
+    margin-left: 20%;
+  }
+}
