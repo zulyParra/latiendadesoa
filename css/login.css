@@ -1,1 +1,5 @@
 @import "principal.css";
+
+.fa-long-arrow-alt-left{
+  color: var(--text-primary-color);
+}

@@ -31,6 +31,18 @@
   border-color:var(--btn-background);
 }
 
+.btn-style-color{
+  color: #fff;
+  background-color:var(--btn-background);
+  border-color: var(--btn-background);
+}
+
+.btn-style-color:hover{
+  color:var(--btn-background);
+  border-color:var(--btn-background);
+  background-color:white;
+}
+
 /* footer */
 .footer-text{
   margin-left: 45%;
@@ -64,6 +76,10 @@
   color:var(--btn-background);
 }
 .fa-instagram-square{
+  color:var(--btn-background);
+}
+
+.fa-shopping-bag{
   color:var(--btn-background);
 }
 
